@@ -1,0 +1,583 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Pathway+Extreme:ital,wght@0,300;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme&display=swap');
+
+*,
+*:before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    width: auto;
+
+
+}
+
+.body h1 {
+    font-size: 70px;
+    color: #ffffff;
+
+}
+
+.body p {
+    font-size: 3.4vw;
+    color: #ffffff;
+
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    /* background-color: rgba(0, 0, 0, 0.6); */
+    background: transparent;
+    position: fixed;
+    top: 0;
+    border: none;
+    justify-content: space-between;
+}
+
+
+
+.left {
+    display: flex;
+    width: 50%;
+    overflow: hidden;
+    align-items: center;
+    margin-left: 7px;
+
+}
+
+.logo img:hover {
+    height: 100px;
+    width: 100px;
+    transition: 0.3s;
+}
+
+.namediscription {
+
+    margin-left: 10px;
+    color: #ffffff;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+
+}
+
+.namediscription:hover {
+    font-size: 22px;
+    transition: 0.4s;
+
+
+
+}
+
+.right {
+
+    width: 50%;
+    color: #ffffff;
+    height: 8vh;
+
+}
+
+
+
+
+
+.home {
+
+    background: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center cen;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+
+
+.right {
+    display: flex;
+    align-items: center;
+    /* justify-content: flex-end; */
+    width: 50%;
+    color: #ffffff;
+}
+
+.bio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+}
+
+
+
+
+
+.bio a {
+
+    margin-left: 35px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    behavior: smooth;
+    color: #ffffff;
+
+
+
+
+}
+
+
+.bio li {
+
+    list-style: none;
+
+
+
+
+}
+
+.bio a:hover {
+    color: rgb(240, 218, 247);
+    font-size: 25px;
+    transition: 0.4s;
+}
+
+.bio a:visited {
+    text-decoration: underline;
+
+}
+
+.work {
+    background-image: url(bg-work.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+}
+
+#contact {
+    background-image: url(bg-contact.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+}
+
+#about {
+    background-image: url(bg-about.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+}
+
+.card {
+    width: 16vw;
+    height: 34vh;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    text-shadow: black;
+    transition: transform 0.5s;
+    overflow: hidden;
+
+}
+
+.visible {
+    opacity: 1;
+}
+
+.card h5 {
+    font-size: 1.5vw;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.ccard:hover {
+    transform: translateY(-10px);
+}
+
+
+.btn {
+    height: 45px;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    padding: 12px 0;
+    background: #fff;
+    outline: none;
+    margin-top: 6px;
+}
+
+.btn a {
+    font-weight: bold;
+    color: black;
+    height: 100%;
+    width: 100%;
+}
+
+.card1 {
+
+    background-color: rgb(88, 1, 20);
+}
+
+.card2 {
+
+    background-color: rgb(1, 88, 88);
+}
+
+.card3 {
+
+    background-color: rgb(2, 24, 73);
+}
+
+.card4 {
+
+    background-color: rgb(88, 1, 49);
+}
+
+.work .left {
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.work .left button {
+    align-self: start;
+}
+
+.work .left p {
+
+    font-size: 5vw;
+    color: antiquewhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.work .right p {
+    font-size: 1.7vw;
+
+
+
+}
+
+.work .right {
+    width: 50%;
+    height: 50vh;
+    align-items: center;
+    justify-self: center;
+    font-weight: bold;
+
+}
+
+.work {
+    display: flex;
+    align-items: center;
+}
+
+section {
+    border-bottom: 2px grey solid;
+}
+
+.work .container {
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+.card span {
+    color: rgb(0, 255, 255);
+}
+
+.ccard {
+    width: 500px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 20px 15px;
+    background-position: center;
+    background-size: cover;
+    text-shadow: black;
+    transition: transform 0.5s;
+    overflow: hidden;
+    text-decoration: none;
+    font-size: 25px;
+
+}
+
+.ccard p,
+a {
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+
+}
+
+.ccard1 {
+    background-color: #07d5f0;
+}
+
+.ccard a {
+    text-decoration: none;
+    color: wheat;
+}
+
+
+.ccard2 {
+    background-color: #f007c9;
+}
+
+.ccard2 span {
+    color: wheat;
+}
+
+.ccard3 {
+    background-color: rgb(230, 175, 74);
+}
+
+.ccard4 {
+    background-color: rgb(74, 230, 157);
+}
+
+
+
+
+
+
+
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contactc {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#about .container {
+    display: flex;
+    width: 90%;
+    height: 90%;
+
+
+}
+
+#about .container .left {
+    width: 45%;
+    height: 90%;
+    margin-right: 20px;
+    border-radius: 10px;
+    background-image: url(myimg.jpeg);
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+
+}
+
+#about .container .right {
+    width: 45%;
+    height: 90%;
+    background-color: wheat;
+    color: rgb(14, 36, 49);
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+
+
+}
+
+#about .container .right p {
+    /* width: 90%; */
+    /* height: 90%; */
+    /* font-size: 100%; */
+    /* width: 90%; */
+    font-family: 'BioRhyme', serif;
+    font-weight: bold;
+    box-sizing: border-box;
+    /* overflow:hidden; */
+}
+
+.dropdown_menu {
+
+    position: absolute;
+    right: 2rem;
+    top: 60px;
+    width: 300px;
+    height: 0px;
+    backdrop-filter: blur(3px);
+    border-radius: 20px;
+    overflow: hidden;
+    display: none;
+
+}
+
+nav .toggle_button {
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+    margin-bottom: 5px;
+    margin-right: 15px;
+    align-self: center;
+
+
+
+}
+
+
+.dropdown_menu li {
+    padding: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    color: #fff;
+}
+
+.dropdown_menu li a {
+    color: white;
+    font-size: 20px;
+}
+
+.dropdown_menu li a:hover {
+    font-size: 25px;
+    transition: 0.4s;
+}
+
+.dropdown_menu.open {
+    height: 250px;
+}
+
+@media only screen and (max-width: 850px) {
+
+
+    nav .right {
+        display: none;
+    }
+
+    nav .toggle_button {
+        display: block;
+    }
+
+    .dropdown_menu {
+        display: block;
+    }
+
+    .work {
+        display: flex;
+        flex-direction: column;
+        height: 200vh;
+    }
+
+    #about {
+        /* display: flex;
+        flex-direction: column; */
+        height: 200vh;
+
+    }
+
+    .card {
+        width: 80vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .work .right {
+        width: 80%;
+        height: 70%;
+    }
+
+    .work .right p {
+        font-size: 3vw;
+    }
+
+    .work .left p {
+        font-size: 200%;
+    }
+
+    #about .left {
+        margin-bottom: 5%;
+    }
+
+   #about .container{
+    flex-direction: column;
+
+   }
+
+    #about .container .left {
+       width: 90%;
+    }
+    #about .container .right {
+       width: 90%;
+    }
+    #cc .right p{
+        font-size: 150%;
+        
+    }
+   
+    .work .left {
+        height: 20%;
+
+    }
+
+
+}
