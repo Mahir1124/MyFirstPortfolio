@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahir khan</title>
+    <link rel="stylesheet" href="assets/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <nav id="navbar">
+        <!-- <input type="checkbox" id="check">
+        <label for="check"></label> -->
+        <div class="left">
+            <div class="logo "><img src="assets/mylogo.png" alt="" class="" height="50px"></div>
+            <div class="namediscription ">
+                <p class="text">Mahir khan</p>
+            </div>
+
+        </div>
+        <div class="right">
+
+            <ul class="bio">
+                <li> <a href="#home"> Home</a></li>
+                <li> <a href="#work">Work</a></li>
+                <li> <a href="#contact">Contact</a></li>
+                <li> <a href="#about">About</a></li>
+            </ul>
+
+        </div>
+
+        <div class="toggle_button"><i class="fa-solid fa-bars"></i></div>
+        <div class="dropdown_menu">
+            
+                <li> <a href="#home"> Home</a></li>
+                <li> <a href="#work">Work</a></li>
+                <li> <a href="#contact">Contact</a></li>
+                <li> <a href="#about">About</a></li>
+           
+        </div>
+    </nav>
+    <section class="home" id="home">
+
+
+
+
+        <div class="body">
+            <h1>Hey there , I'm <span style="color: rgb(248, 6, 59);">M</span>ahir khan </h1>
+            <p><span>I am Expert Full-Stack Web Developer</span> <br>
+                <span> I am student of Bachlors of Computer Application </span>
+            </p>
+            <button class="btn"><a href="#work" style="text-decoration: none;"> Explore</a></button>
+        </div>
+    </section>
+    <section class="work" id="work">
+        <div class="left">
+            <p>I am skilled MERN Developer with other skills </p>
+            <button class="btn"><a href="#contact" style="text-decoration: none;"> Explore</a></button>
+        </div>
+        <div class="right">
+            <div class="container" id="c">
+                <div class="card card1">
+                    <h5>Front-End Development</h5>
+                    <p>
+                       <br> <i> <span> H</span>TML,<span> C</span>SS,<span>
+                                JS</span> <br><span> W</span>ORDPRESS <br>
+                            <span> B</span>OOTSTRAP <br><span> T</span>AILWIND CSS <BR>
+                            along with<span> R</span>eactJS</BR> </i>
+                    </p>
+                </div>
+                <div class="card card2">
+                    <h5>Back-End Develpment </h5>
+                    <p>   <i>
+                            <span> <br> E</span>XPRESS-JS
+                            <span> <br> P</span>HP
+                        </i></p>
+                </div>
+                <div class="card card3">
+                    <h5>Database</h5>
+                    <p>Database with- <br><br>
+                        <i>
+                            <span> M</span>ongo-DB
+                            <span> <br>My</span>SQL
+                        </i>
+                    </p>
+                </div>
+                <div class="card card4">
+                    <h5>Programming Languages</h5>
+                    <p><br><i>
+                            <span> JS &nbsp;&nbsp; &nbsp; &nbsp; Python</span>
+                            <span> <br> C++ &nbsp; Java</span>
+                            <span> <br> PHP &nbsp; </span>
+                        </i></p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section id="contact">
+        <div class="container" id="contactc">
+            <div class="ccard ccard1">
+                <p>E-Mail &nbsp; <a href="">Mahirkhan1124@gmail.com</a></p>
+
+            </div>
+            <div class="ccard ccard2">
+                <p>MO &nbsp; &nbsp; &nbsp; <span> 7089257302</span></p>
+
+            </div>
+            <div class="ccard ccard3">
+                <p>IG &nbsp; &nbsp; &nbsp; &nbsp; <a href="https://www.instagram.com/mahir_khan1124/">@mahir_khan1124</a>
+                </p>
+
+            </div>
+            <div class="ccard ccard4">
+                <p> LIn &nbsp; &nbsp; &nbsp; <a
+                        href="https://www.linkedin.com/in/mahir-khan-431613238/">Mahirkhan1124</a></p>
+
+            </div>
+            <button style="align-self: center;" class="btn"><a href="#about" style="text-decoration: none;">
+                    Explore</a></button>
+        </div>
+
+    </section>
+    <section id="about">
+        <div class="container" id="cc">
+            <div class="left">
+                
+            </div>
+            <div class="right">
+                <p>I am Mahir , I am very keen to Programming and Software Development
+                    <br> I am a Full-Stack MERN Web-Devoper and Designer
+                    , i have expertise in bulding Front-End designs with my CSS skills and i can also use other
+                    libraries such as BOOTSTRAP and TAILWIND CSS ,
+                    for Database i am have deep understanding of the Mongo-DB and MySQL , i can work with web servers
+                    like
+                    AWS , Azure and Google Cloud. I am very good at Express-JS and PHP for Back-End . I can provide you
+                    the best of my contribution.
+                    <br> Additionally , I have deep insights of Data-Structures and Algorithems with Java , Python , C++
+                    , Javascript etc as well as knownledge of all those languages.
+
+                </p>
+            </div>
+        </div>
+    </section>
+</body>
+<script>
+    const toggleBtn = document.querySelector('.toggle_button')
+    const toggleBtnIcon = document.querySelector('.toggle_button i' )
+    const dropdownMenu = document.querySelector('.dropdown_menu' )
+    function click(){
+        dropdownMenu.classList.toggle('open')
+        const isOpen = dropdownMenu.classList.contains('open')
+        toggleBtnIcon.classList = isOpen ? 'fa-solid fa-xmark' : 'fa-solid fa-bars'
+    }
+    toggleBtn.onclick = click;
+    dropdownMenu.onclick= function(){
+click()
+    }
+</script>
+</html>
